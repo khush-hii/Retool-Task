@@ -1,8 +1,8 @@
-Task Management Application
-Description
+## Task Management Application
+# Description
 This is a simple Task Management Application designed to help you track and manage your tasks. It allows users to create, update, and delete tasks, while also providing the ability to track their progress. The app is powered by MySQL for data storage, and it leverages Retool for building the user interface, with VS Code as the development environment.
 
-Features:
+# Features:
 Create new tasks with a title, description, due date, and status.
 Edit task details, including the title, description, and due date.
 Update task status (Pending, In Progress, Completed).
@@ -14,7 +14,7 @@ Frontend: Retool
 Development Environment: VS Code
 Programming Languages: SQL, JavaScript (for Retool customization)
 Installation
-Prerequisites:
+# Prerequisites:
 Ensure that you have MySQL installed on your local machine or have access to a MySQL server.
 Ensure you have VS Code installed.
 Retool account for building and hosting the UI.
@@ -54,7 +54,7 @@ Connect to your MySQL database:
 
 Go to the "Resource" tab and add a new resource for MySQL.
 Provide the connection details (host, username, password, database name).
-Build the UI:
+# Build the UI:
 
 Use Retool's drag-and-drop interface to create tables, forms, and buttons for task management.
 Bind the data from MySQL to the components to allow interaction with the tasks.
@@ -74,13 +74,8 @@ Copy code
   /frontend
     /retool_app             # Retool UI project files (hosted on Retool platform)
   README.md                 # This README file
-Contributing
-If you would like to contribute to this project, please fork the repository, create a new branch, and submit a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
- you're only testing the API, it is not necessary to visit http://localhost:3000/. Instead, you should test your actual API endpoints like:
+you're only testing the API, it is not necessary to visit http://localhost:3000/. Instead, you should test your actual API endpoints like:
 http://localhost:3000/tasks (to get the list of tasks)
 http://localhost:3000/tasks/1 (to get a task by ID)
 
